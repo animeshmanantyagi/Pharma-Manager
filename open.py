@@ -146,7 +146,6 @@ def updateitem():
             else:
                 working.write('{0} {1} {2} {3} {4}'.format(str(e1), e2, e3, str(e4), e5))
     os.remove(r"database_proj")
-    #brought to you by code-projects.org
     os.rename(r"database_proj1", r"database_proj")
 
 
